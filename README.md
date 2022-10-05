@@ -11,7 +11,7 @@
 
 # O Desafio de Notas Fiscais e Cálculo de Impostos
 
-Você deverá criar 1 aplicações para cadastramento de notas fiscais e cálculo de impostos:
+Você deverá criar 1 aplicação para cadastramento de notas fiscais e cálculo de impostos:
 
 **Back-end:** aplicação JavaEE baseada em Web Services no padrão RESTful JAX-RS.
 
@@ -24,7 +24,7 @@ Você deverá criar 1 aplicações para cadastramento de notas fiscais e cálcul
 - Permitir a consulta de notas fiscais e impostos por mês e ano de referência
 - Permitir marcar o imposto como PAGO
 
-O cadastro do cliente da Contabilizei deve conter as seguintes informações:
+O cadastro do cliente  deve conter as seguintes informações:
 
 * Razão Social
 * CNPJ
@@ -40,7 +40,7 @@ As Notas Fiscais contêm as seguintes informações:
 * Data de emissão
 * Descrição (Apenas texto. Pode ser um serviço prestado, um produto vendido ou produzido)
 * Valor
-* Anexo (1,2,3)
+
 
 Quando o cliente terminar de lançar suas notas fiscais, ele poderá solicitar o cálculo de seus impostos do mês. Cada mês deverá ter apenas 1 imposto de cada tipo. Os impostos deverão ter as seguintes informações:
 
@@ -96,15 +96,13 @@ Escolha umas das opções abaixo para implementar sua solução. A modelagem dos
 
 
 
-* Aplicação pura Java EE (também poderá ser utiliza Spring, Struts, EJB, etc.)
+* Aplicação pura Java EE (também poderá ser utiliza Spring, Struts, EJB, Hibernat, etc.)
 * RESTful API JAX-RS utilizando Servlets ou framework a sua escolha
 * Banco de dados SQL (MySQL, PostgreSQL, HSQLDB) com JPA ou NOSQL(MongoDB)
 
 #### FRONT-END OPCIONAL
 
 * Single Page Application utilizando apenas HTML5 e CSS3 
-* Javascript puro / JQuery (e plugins)
-* AngularJS 1.x
 * Bootstrap (http://getbootstrap.com/) ou Angular Material Design (será diferencial)
 
 **Recomendações gerais:**
@@ -112,7 +110,7 @@ Escolha umas das opções abaixo para implementar sua solução. A modelagem dos
 * Não utilize frameworks ou BD que não foram indicados
 * Para servidor de aplicação utilize Jetty ou Tomcat (Não utilize: JBOSS, Wildfly ou qualquer outro servidor. Por quê? Critério de facilidade de configuração)
 * Utilize o Maven para gerenciamento de dependências
-* Utilizar automatizadores como Bower, Gulp, Grant é opcional.
+
 
 ### Arquitetura e documentação
 
